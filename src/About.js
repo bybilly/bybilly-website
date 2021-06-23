@@ -2,7 +2,7 @@ import './About.css';
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="about section">
             <h2>About Me</h2>
             <div className="about--section">
                 <img className="profile-picture" src="https://bybillyuploader.s3.eu-west-2.amazonaws.com/kq8qmd50.png" />

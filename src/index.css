@@ -48,3 +48,26 @@ body {
   box-shadow: 0 0 #000;
   top: 6px;
 }
+
+.section {
+  width: 100%;
+  color: white;
+  font-size: 32px;
+  padding: 50px 40px;
+  box-sizing: border-box;
+}
+
+body .section:nth-child(2n + 1) {
+  background: var(--primary-grey);
+}
+
+body .section:nth-child(2n) {
+  background: var(--secondary-grey);
+}
+
+@media(max-width: 1000px) {
+  .section {
+    font-size: 28px;
+    padding: 40px 25px;
+  }
+}

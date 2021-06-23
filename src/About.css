@@ -1,10 +1,5 @@
 .about {
-    width: 100%;
-    background: var(--primary-grey);
-    color: white;
-    padding: 40px;
     box-sizing: border-box;
-    font-size: 32px;
 }
 
 .about--section {
@@ -40,4 +35,22 @@
     max-width: 900px;
     margin: 0 auto;
     margin-bottom: 10px;
+}
+
+@media(max-width: 1000px) {
+    .about--text > p {
+        font-size: 19px;
+    }
+
+    .about--text > h3 {
+        font-size: 25px;
+    }
+
+    .profile-picture {
+        width: 120px;
+    }
+
+    .about--section {
+        margin: 15px 0 15px 0;
+    }
 }

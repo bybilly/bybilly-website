@@ -3,7 +3,7 @@ import ballsImg from './balls.svg';
 
 const Hero = () => {
     return (
-        <div className="hero">
+        <div className="hero section">
             <img src={ballsImg} alt="Glow" />
             <div className="hero--content">
                 <h1>

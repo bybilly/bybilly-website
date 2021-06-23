@@ -1,11 +1,6 @@
 .projects {
     min-height: 50vh;
-    width: 100%;
-    background: var(--secondary-grey);
-    color: white;
-    padding: 40px;
     box-sizing: border-box;
-    font-size: 32px;
     z-index: 2;
     position: relative;
 }
