@@ -1,6 +1,7 @@
 .hero {
     height: 50vh;
     position: relative;
+    overflow: hidden;
 }
 
 .hero--content {
