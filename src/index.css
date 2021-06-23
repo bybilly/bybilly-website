@@ -4,14 +4,21 @@
 
 :root {
   --blue: #4185f2;
+  --light-blue: #75aaff;
   --primary-grey: #0d0e0f;
   --secondary-grey: #17181c;
   --blackish: #0c0c0d;
 }
 
+::selection {
+  background: var(--light-blue);
+  color: black;
+}
+
 body {
   margin: 0;
   font-family: 'Inter', Arial;
+  overflow-x: hidden;
 }
 
 .nice-btn {

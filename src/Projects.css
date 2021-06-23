@@ -6,6 +6,8 @@
     padding: 40px;
     box-sizing: border-box;
     font-size: 32px;
+    z-index: 2;
+    position: relative;
 }
 
 .projects--container {

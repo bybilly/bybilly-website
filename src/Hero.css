@@ -3,13 +3,24 @@
     width: 100%;
     background: var(--primary-grey);
     color: white;
+    position: relative;
+}
+
+.hero--content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
 }
 
-.hero h1 {
+.hero--content h1 {
     font-size: 80px;
     line-height: 70px;
     margin-bottom: 40px;
@@ -18,4 +29,25 @@
 .hero--highlight {
     color: var(--blue);
     display: block;
+}
+
+.hero img {
+    width: 120%;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media(max-width: 1000px) {
+    .hero img {
+        width: 150%;
+    }
+}
+
+@media(max-width: 750px) {
+    .hero img {
+        display: none;
+    }
 }

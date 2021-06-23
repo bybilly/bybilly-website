@@ -14,6 +14,7 @@ const Projects = () => {
                         {text: "Visit on SpigotMC", link: "https://www.spigotmc.org/resources/minecraft-website-template-portal-%E2%98%85-responsive-%E2%98%85-easy.48410/"},
                         {text: "View Source", link: "https://github.com/bybilly/minecraft-web-portal"}
                     ]}
+                    key = "1"
                 />
                 <Project
                     title = "Minecraft Onepage Template"
@@ -22,6 +23,7 @@ const Projects = () => {
                     buttons = {[
                         {text: "Visit on SpigotMC", link: "https://www.spigotmc.org/resources/dusk-%E2%98%85-minecraft-dark-theme-website-%E2%98%85-fully-responsive.51246/"}
                     ]}
+                    key = "2"
                 />
                 <Project
                     title = "Simple Image Uploader"
@@ -31,6 +33,7 @@ const Projects = () => {
                         {text: "Visit", link: "https://uploader.bybilly.uk"},
                         {text: "View Source", link: "https://github.com/bybilly/Image-Uploader"}
                     ]}
+                    key = "3"
                 />
                 <Project
                     title = "React Calculator"
@@ -40,6 +43,7 @@ const Projects = () => {
                         {text: "Visit", link: "https://calculator.bybilly.uk/"},
                         {text: "View Source", link: "https://github.com/bybilly/react-calculator"}
                     ]}
+                    key = "4"
                 />
                 <Project
                     title = "StrengMC Website"
@@ -48,6 +52,7 @@ const Projects = () => {
                     buttons = {[
                         {text: "Visit", link: "https://strengmc.com/"}
                     ]}
+                    key = "5"
                 />
                 <Project
                     title = "Steve Pert's Website"
@@ -56,6 +61,7 @@ const Projects = () => {
                     buttons = {[
                         {text: "Visit", link: "https://stevepert.com/"}
                     ]}
+                    key = "6"
                 />
             </div>
         </div>
