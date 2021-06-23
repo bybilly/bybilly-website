@@ -1,11 +1,11 @@
 import './Projects.css';
 import Project from './Project';
-import uploaderImg from './assets/image-uploader.png';
-import onepageImg from './assets/onepage-template.png';
-import portalImg from './assets/portal-template.png';
-import calculatorImg from './assets/react-calculator.png';
-import steveImg from './assets/stevepert-website.png';
-import strengImg from './assets/strengmc-website.png';
+import uploaderImg from './assets/image-uploader.webp';
+import onepageImg from './assets/onepage-template.webp';
+import portalImg from './assets/portal-template.webp';
+import calculatorImg from './assets/react-calculator.webp';
+import steveImg from './assets/stevepert-website.webp';
+import strengImg from './assets/strengmc-website.webp';
 
 const Projects = () => {
     return (

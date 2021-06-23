@@ -1,5 +1,5 @@
 import './About.css';
-import billyImg from './assets/billy.png';
+import billyImg from './assets/billy.webp';
 
 const About = () => {
     return (
