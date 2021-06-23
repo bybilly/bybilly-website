@@ -1,0 +1,8 @@
+.contact {
+    width: 100%;
+    background: var(--secondary-grey);
+    color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: 32px;
+}

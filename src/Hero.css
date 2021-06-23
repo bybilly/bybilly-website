@@ -1,0 +1,21 @@
+.hero {
+    height: 50vh;
+    width: 100%;
+    background: var(--primary-grey);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 80px;
+    line-height: 70px;
+    margin-bottom: 40px;
+}
+
+.hero--highlight {
+    color: var(--blue);
+    display: block;
+}
