@@ -37,4 +37,21 @@
         width: calc(50% - 20px);
         padding: 15px;
     }
+
+    .project--body > h3 {
+        font-size: 21px;
+    }
+
+    .project--body > p {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 600px) {
+    .project {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+    }
 }

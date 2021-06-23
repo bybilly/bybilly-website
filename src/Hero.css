@@ -47,6 +47,11 @@
     .hero--content {
         width: 50%;
     }
+
+    .hero--content h1 {
+        font-size: 65px;
+        line-height: 55px;
+    }
 }
 
 @media(max-width: 750px) {
