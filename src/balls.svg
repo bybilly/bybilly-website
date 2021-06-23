@@ -1,0 +1,11 @@
+<!-- Code adapted from github home page -->
+<svg fill="none" viewBox="0 0 3000 1600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <filter id="a" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="1200" width="1544" x="1682" y="200">
+        <feGaussianBlur result="effect1_foregroundBlur" stdDeviation="100" />
+    </filter>
+    <filter id="c" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="858" width="982" x="0" y="23">
+        <feGaussianBlur result="effect1_foregroundBlur" stdDeviation="100" />
+    </filter>
+    <g filter="url(#a)" opacity=".8"><circle cx="2550" cy="1150" fill="#f5a142" r="330" /></g>
+    <g filter="url(#c)" opacity=".9"><ellipse cx="330" cy="350" fill="#4185f2" rx="390" ry="260" /></g>
+</svg>
