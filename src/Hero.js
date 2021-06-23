@@ -1,5 +1,5 @@
 import './Hero.css';
-import ballsImg from './balls.svg';
+import ballsImg from './assets/balls.svg';
 
 const Hero = () => {
     return (
