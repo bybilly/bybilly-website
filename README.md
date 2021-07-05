@@ -1,3 +1,3 @@
 # bybilly website
 
-My personal site, will release this soon... once it looks good!
+My personal site, as seen on https://bybilly.uk
