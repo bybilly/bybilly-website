@@ -23,6 +23,16 @@
     font-weight: 200;
 }
 
+.about--text a:link,
+.about--text a:visited {
+    color: var(--blue);
+}
+
+.about--text a:active,
+.about--text a:hover {
+    color: var(--light-blue);
+}
+
 .profile-picture {
     width: 160px;
     border-radius: 50%;
