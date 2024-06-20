@@ -1,6 +1,6 @@
 import './Projects.css';
 import Project from './Project';
-import uploaderImg from './assets/image-uploader.webp';
+import weatherImg from './assets/weather-type-dataset-example.webp';
 import onepageImg from './assets/onepage-template.webp';
 import portalImg from './assets/portal-template.webp';
 import bergenImg from './assets/bergen.webp';
@@ -14,7 +14,7 @@ const Projects = () => {
             <div className="projects--container">
                 <Project
                     title = "Minecraft Portal Template"
-                    description = "A simple, clean Minecraft 'Portal' template avaliable for free on SpigotMC. Over 27,000 downloads."
+                    description = "A simple, clean Minecraft 'Portal' template avaliable for free on SpigotMC. Over 30,000 downloads."
                     image = {portalImg}
                     imagealt = "Portal main page screenshot"
                     buttons = {[
@@ -25,7 +25,7 @@ const Projects = () => {
                 />
                 <Project
                     title = "Bergen Drone Footage"
-                    description = "Some drone clips I've put together from my recent trip to Bergen, Norway."
+                    description = "Some drone clips I've put together from my trip to Bergen, Norway in March 2023."
                     image = {bergenImg}
                     imagealt = "Image of Bergen"
                     buttons = {[
@@ -34,28 +34,28 @@ const Projects = () => {
                     key = "2"
                 />
                 <Project
+                    title = "Weather Type Recognition Model"
+                    description = "A convolutional neural network designed and trained with the Keras API to predict the weather type into the classes 'rain', 'lightning', or 'snow' in a provided image."
+                    image = {weatherImg}
+                    imagealt = "Example of weather type recognition model input image"
+                    buttons = {[
+                        {text: "View Source", link: "https://github.com/bybilly/Weather-Type-Recognition-Model", id: "1"}
+                    ]}
+                    key = "3"
+                />
+                <Project
                     title = "Minecraft One Page Template"
-                    description = "A single page web template avaliable for free on SpigotMC. Over 11,000 downloads."
+                    description = "A single page web template avaliable for free on SpigotMC. Over 12,000 downloads."
                     image = {onepageImg}
                     imagealt = "Onepage main page screenshot"
                     buttons = {[
                         {text: "Visit on SpigotMC", link: "https://www.spigotmc.org/resources/dusk-%E2%98%85-minecraft-dark-theme-website-%E2%98%85-fully-responsive.51246/", id: "1"}
                     ]}
-                    key = "3"
-                />
-                <Project
-                    title = "Simple Image Uploader"
-                    description = "A simple image uploader which stores images on AWS and is coded using NodeJS."
-                    image = {uploaderImg}
-                    imagealt = "Uploader main page screenshot"
-                    buttons = {[
-                        {text: "View Source", link: "https://github.com/bybilly/Image-Uploader", id: "2"}
-                    ]}
                     key = "4"
                 />
                 <Project
                     title = "StrengMC Website"
-                    description = "The official StrengMC Minecraft server website, which integrated with the Minecraft server and used PHP in the back-end."
+                    description = "The official StrengMC Minecraft server website, which integrated with the Minecraft server databases and used PHP in the back-end."
                     image = {strengImg}
                     imagealt = "StrengMC home page screenshot"
                     key = "5"
@@ -65,9 +65,6 @@ const Projects = () => {
                     description = "The official website of the late UK singer Steve Pert. May he rest in peace."
                     image = {steveImg}
                     imagealt = "Steve Pert home page screenshot"
-                    buttons = {[
-                        {text: "Visit", link: "https://stevepert.com/", id: "1"}
-                    ]}
                     key = "6"
                 />
             </div>
