@@ -6,8 +6,12 @@
     color: var(--blue);
 }
 
+.contact h2 {
+    margin-bottom: 25px;
+}
+
 .contact > p {
-    margin: 40px 0 0 0;
+    margin: 20px 0 0 0;
     font-size: 25px;
 }
 
